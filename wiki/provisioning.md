@@ -4,6 +4,8 @@ Focal fossa
 
 ## 	20200827 09:00 gitsync
 
+sudo mkdir Projects/scratch/virtual-insanity
+
 
 ## git config --list --show-origin
 
@@ -20,6 +22,21 @@ boscp08@boscp08-HP-Compaq-8510p:~$ cat .gitconfig
 	email = bosch.peter@icloud.com
 [credential]
 	helper = store --file ~/.my-credentials
+
+````
+
+
+## sudo apt  install tree
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~/Projects$ tree
+.
+├── gitlab.example.com
+│   └── pi8gb
+└── scratch
+    └── virtual-insanity
+
+4 directories, 0 files
 
 ````
 
