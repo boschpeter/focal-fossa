@@ -1,5 +1,8 @@
 Focal fossa
 
+|Filesystem   |   Size |  Used | Avail| Use%|
+|----------   |--------|-------|------|-----|
+|/dev/sda5    |   466G |  25G  |418G|   6% |
 ---
 ## 	 git clone http://admin:ThisIsCool_2020@gitlab.example.com/root/2B
 
