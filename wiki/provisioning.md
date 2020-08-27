@@ -6,9 +6,104 @@ Focal fossa
 
 ## 	20200827 09:00 git	
 
-## 	20200827 09:00 /dev/sda5
+[how-to-install-git-on-ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04)
 
-## 	20200827 09:00 rsync dockuwiki
+````
+sudo apt update
+sudo apt install git
+git --version
+```
+
+
+
+home/boscp08/.gitconfig   user.name=boschpeter
+file:/home/boscp08/.gitconfig   user.password=Peter\!2020
+file:/home/boscp08/.gitconfig   user.email=bosch.peter@icloud.com
+git config --global credential.helper 'store --file ~/.my-credentials'
+git config --list --show-origin
+
+## rsync -avz -e ssh root@192.168.2.90:/srv/www/htdocs/site/dokuwiki /var/www/html
+
+````
+crontab -l
+@reboot sudo swapoff -a
+*/10 * * * * rsync -avz -e ssh root@192.168.2.90:/srv/www/htdocs/site/dokuwiki /var/www/html
+````
+
+````
+sent 997,163 bytes  received 1,157,098,476 bytes  1,435,952.44 bytes/sec
+total size is 1,568,807,514  speedup is 1.35
+boscp08@boscp08-HP-Compaq-8510p:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda5       466G   16G  427G   4% /
+````
+
+
+## crontab -e
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~$ crontab -e
+no crontab for boscp08 - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.tiny
+  3. /bin/ed
+
+Choose 1-3 [1]: 1
+
+````
+
+````
+# m h  dom mon dow   command
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command to execute
+
+````
+
+## cat .bashrc
+
+
+
+## 	ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.2.90 
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~/.ssh$ ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.2.90 
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/boscp08/.ssh/id_rsa.pub"
+The authenticity of host '192.168.2.90 (192.168.2.90)' can't be established.
+ECDSA key fingerprint is SHA256:ips4bS6Q5Nl/xsd9nc+u4o2rxqXPOSWbVes1rTPwOXs.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+Password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@192.168.2.90'"
+and check to make sure that only the key(s) you wanted were added.
+
+boscp08@boscp08-HP-Compaq-8510p:~/.ssh$ ssh root@192.1698.2.90
+ssh: Could not resolve hostname 192.1698.2.90: Name or service not known
+boscp08@boscp08-HP-Compaq-8510p:~/.ssh$ ssh root@192.168.2.90
+Last failed login: Mon Aug 24 17:42:24 CEST 2020 from 192.168.2.6 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Mon Aug 17 15:06:57 2020 from 192.168.2.62
+Have a lot of fun...
+suse64:~ # exit
+logout
+Connection to 192.168.2.90 closed.
+
+
+````
+
+
 
 ## 	ssh-keygen
 
