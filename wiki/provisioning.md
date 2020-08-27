@@ -1,6 +1,6 @@
 Focal fossa
 
-
+---
 
 ## 	20200827 09:00 gitsync
 
@@ -27,6 +27,8 @@ file:/home/boscp08/.gitconfig   user.password=Peter\!2020
 file:/home/boscp08/.gitconfig   user.email=bosch.peter@icloud.com
 git config --global credential.helper 'store --file ~/.my-credentials'
 git config --list --show-origin
+
+---
 
 ## rsync -avz -e ssh root@192.168.2.90:/srv/www/htdocs/site/dokuwiki /var/www/html
 
