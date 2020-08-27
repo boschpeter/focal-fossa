@@ -1,9 +1,39 @@
 Focal fossa
 
 ---
+## 	 git clone http://admin:ThisIsCool_2020@gitlab.example.com/root/2B
 
-## 	20200827 09:00 gitsync
+````
+boscp08@boscp08-HP-Compaq-8510p:~/Projects/scratch/virtual-insanity$ git clone http://admin:ThisIsCool_2020@gitlab.example.com/root/2B
+Cloning into '2B'...
+warning: redirecting to http://gitlab.example.com/root/2B.git/
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 37 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: 
+Unpacking objects: 100% (37/37), 20.11 MiB | 1.44 MiB/s, done.
+boscp08@boscp08-HP-Compaq-8510p:~/Projects/scratch/virtual-insanity$ cd 
+boscp08@boscp08-HP-Compaq-8510p:~$ cat .my-credentials 
+http://admin:ThisIsCool_2020@gitlab.example.com
+http://admin:ThisIsCool_2020@192.168.2.11
+https://ezahr:Peter%212020@github.com
+https://boschpeter:Peter%212020@github.com
+````
 
+## sudo nano /etc/hosts
+````
+127.0.0.1       localhost
+127.0.1.1       boscp08-HP-Compaq-8510p
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+192.168.2.14 gitlab.example.com
+````
 
 ## git clone http://admin:ThisIsCool_2020@192.168.2.11/root/powerdesigner.git
 
