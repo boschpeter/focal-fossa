@@ -228,6 +228,24 @@ Connection to 192.168.2.90 closed.
 sudo apt install openssh-server
 sudo systemctl status ssh
 ssh-copy-id -i ~/.ssh/id_rsa.pub boscp08@localhost
+
+````
+
+````
+ubuntu@ubuntu-HP-Compaq-8510p:~$ ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@localhost
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/ubuntu/.ssh/id_rsa.pub"
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:zVSOvaX9gd5tXhLTuL26Gk5D16Yf86r9P5JsIzHCzcc.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+ubuntu@localhost's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'ubuntu@localhost'"
+and check to make sure that only the key(s) you wanted were added.
+
 ````
 
 
