@@ -7,6 +7,35 @@ Focal fossa
 sudo mkdir Projects/scratch/virtual-insanity
 
 
+
+## git clone https://ezahr:Peter\!2020@github.com/ezahr/MobileIron
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~/Projects/scratch/virtual-insanity$ git clone https://ezahr:Peter\!2020@github.com/ezahr/MobileIron
+Cloning into 'MobileIron'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 2405 (delta 10), reused 6 (delta 3), pack-reused 2385
+Receiving objects: 100% (2405/2405), 266.63 MiB | 1.38 MiB/s, done.
+Resolving deltas: 100% (1133/1133), done.
+Updating files: 100% (756/756), done.
+boscp08@boscp08-HP-Compaq-8510p:~/Projects/scratch/virtual-insanity$ cd 
+boscp08@boscp08-HP-Compaq-8510p:~$ cat .my-credentials
+https://ezahr:Peter%212020@github.com
+https://boschpeter:Peter%212020@github.com
+boscp08@boscp08-HP-Compaq-8510p:~$ 
+
+````
+
+
+## git clone https://boschpeter:Peter\!2020@github.com/boschpeter/focal-fossa
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~$ cat .my-credentials 
+https://boschpeter:Peter%212020@github.com
+````
+
 ## git config --list --show-origin
 
 | git config --list --show-origin|
