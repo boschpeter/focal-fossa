@@ -5,6 +5,10 @@ Focal fossa
 ## 	20200827 09:00 gitsync
 
 
+## git config --list --show-origin
+
+````git config --global credential.helper 'store --file ~/.my-credentials'````
+
 
 
 ## 	sudo apt update && sudo apt install git && git --version	
