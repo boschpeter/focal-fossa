@@ -4,9 +4,27 @@ Focal fossa
 
 ## 	20200827 09:00 gitsync
 
-sudo mkdir Projects/scratch/virtual-insanity
+
+## git clone http://admin:ThisIsCool_2020@192.168.2.11/root/powerdesigner.git
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~$ git clone http://admin:ThisIsCool_2020@192.168.2.11/root/powerdesigner.git
+Cloning into 'powerdesigner'...
+remote: Enumerating objects: 54, done.
+remote: Counting objects: 100% (54/54), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 54 (delta 15), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (54/54), 28.24 MiB | 1.39 MiB/s, done.
+
+boscp08@boscp08-HP-Compaq-8510p:~$ cat .my-credentials
+http://admin:ThisIsCool_2020@192.168.2.11
+https://ezahr:Peter%212020@github.com
+https://boschpeter:Peter%212020@github.com
+boscp08@boscp08-HP-Compaq-8510p:~$ 
 
 
+
+````
 
 ## git clone https://ezahr:Peter\!2020@github.com/ezahr/MobileIron
 
