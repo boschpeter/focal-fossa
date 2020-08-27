@@ -7,7 +7,11 @@ Focal fossa
 
 ## git config --list --show-origin
 
-````git config --global credential.helper 'store --file ~/.my-credentials'````
+| git config --list --show-origin|
+|----------------------------------------------------|
+|git config --global user.name "ezahr"|
+|git config --global user.email "bosch.peter@icloud.com"|
+|git config --global credential.helper 'store --file ~/.my-credentials'|
 
 
 
