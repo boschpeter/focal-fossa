@@ -13,7 +13,15 @@ Focal fossa
 |git config --global user.email "bosch.peter@icloud.com"|
 |git config --global credential.helper 'store --file ~/.my-credentials'|
 
+````
+boscp08@boscp08-HP-Compaq-8510p:~$ cat .gitconfig 
+[user]
+	name = ezahr
+	email = bosch.peter@icloud.com
+[credential]
+	helper = store --file ~/.my-credentials
 
+````
 
 ## 	sudo apt update && sudo apt install git && git --version	
 
