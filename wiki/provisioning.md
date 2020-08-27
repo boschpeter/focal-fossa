@@ -4,15 +4,17 @@ Focal fossa
 
 ## 	20200827 09:00 gitsync
 
-## 	20200827 09:00 git	
+
+
+
+## 	sudo apt update && sudo apt install git && git --version	
 
 [how-to-install-git-on-ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04)
 
+
 ````
-sudo apt update
-sudo apt install git
-git --version
-```
+sudo apt update && sudo apt install git && git --version
+````
 
 
 
