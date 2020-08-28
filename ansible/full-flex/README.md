@@ -64,3 +64,4 @@ apt-get install sshpass
 ## 	git config --global user.email "bosch.peter@icloud.com"
 
 ##  vscode://vscode.github-authentication/did-authenticate?windowId=1&code=73671ebd2f29a5b18279&state=0e2406cf-2391-4da0-9c2a-a0847c36bb4a 
+
